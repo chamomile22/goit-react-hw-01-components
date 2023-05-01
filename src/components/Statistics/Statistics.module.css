@@ -1,4 +1,4 @@
-.statistics{
+.statistics {
   max-width: max-content;
   margin-left: auto;
   margin-right: auto;
@@ -10,14 +10,14 @@
 
   text-align: center;
 }
-.title{
+.title {
   margin-bottom: 30px;
   color: #45435a;
   text-transform: uppercase;
   font-size: 17px;
   font-weight: 700;
 }
-.stat-list{
+.stat-list {
   height: 70px;
   display: flex;
   overflow: hidden;
