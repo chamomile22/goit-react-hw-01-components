@@ -9,7 +9,7 @@ export const StatisticsItem = ({ label, percentage }) => {
     </li>
   );
 };
-Profile.propTypes = {
+StatisticsItem.propTypes = {
   label: PropTypes.string.isRequired,
   percentage: PropTypes.number.isRequired,
 };

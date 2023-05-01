@@ -22,7 +22,7 @@ export const Statistics = ({ title, stats }) => {
   );
 };
 
-Profile.propTypes = {
+Statistics.propTypes = {
   title: PropTypes.string.isRequired,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
