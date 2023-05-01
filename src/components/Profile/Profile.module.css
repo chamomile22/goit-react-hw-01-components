@@ -1,0 +1,85 @@
+.profile {
+  max-width: 250px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding-top: 30px;
+
+  background-color: white;
+
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #00000026;
+}
+.description {
+  text-align: center;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+
+  background-color: #e9e8dc;
+  border-radius: 50%;
+}
+.name {
+  margin-bottom: 7px;
+
+  color: #2c2c36;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+.tag {
+  margin-bottom: 7px;
+
+  color: #7c7c89;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+.location {
+  margin-bottom: 30px;
+
+  color: #7c7c89;
+
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.stats {
+  height: 70px;
+  display: flex;
+
+  background-color: #f3f6f9;
+  border-top: 1px solid #e2e7ed;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.stats li {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stats li:not(:last-child) {
+  border-right: 1px solid #e2e7ed;
+}
+
+.label {
+  margin-bottom: 3px;
+
+  color: #7c7c89;
+
+  font-size: 12px;
+  font-weight: 500;
+}
+.quantity {
+  color: #2c2c36;
+
+  font-size: 15px;
+  font-weight: 700;
+}
