@@ -1,0 +1,28 @@
+.statistics{
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding-top: 30px;
+
+  background-color: white;
+  border-radius: 3px;
+
+  text-align: center;
+}
+.title{
+  margin-bottom: 30px;
+  color: #45435a;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+}
+.stat-list{
+  height: 70px;
+  display: flex;
+  overflow: hidden;
+
+  border-top: 1px solid #73b3d3;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}

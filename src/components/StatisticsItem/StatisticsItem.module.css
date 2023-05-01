@@ -1,0 +1,21 @@
+.item{
+  min-width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  background-color: #84cddb;
+}
+.item:not(:last-child){
+  border-right: 1px solid #73b3d3;
+}
+.label{
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.percentage{
+  font-size: 16px;
+  font-weight: 600;
+}
